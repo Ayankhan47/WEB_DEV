@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="main" class="h-screen font-['gilroy'] select-none">
+        <div id="mt" class="h-[10%]"></div>
+        <div id="page" class="h-[90%] flex ">
+            <div id="page1" class="w-1/2 px-16 flex flex-col justify-between ">
+                <div id="box1">
+                <h1 class="text-9xl w-fit tracking-tight">a cotton <br> weave.</h1>
+                </div>
+                <div id="box2" class="py-10">
+                <div id="colorpicker" class="flex items-center gap-2 w-fit bg-transparent border-solid border-[2px] border-zinc-400 px-2 py-1 rounded-full mb-8">
+                    <h3 class="mr-3 text-lg">colors</h3>
+                    <div id="color1" class="h-4 w-4 rounded-full bg-red-800"></div>
+                    <div id="color2" class="h-4 w-4 rounded-full bg-blue-200"></div>
+                </div>
+                <div id="details" class="w-3/5">
+                    <h1 class="font-semibold text-xl">Details</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem rerum possimus voluptatibus natus sapiente fugiat ea numquam magni quibusdam.</p>
+                </div>
+                </div>
+            </div>
+            <div id="page2" class="w-1/2 flex items-end ">
+               <div id="mainbox" class="h-[95%] w-[60%]">
+                <div id="toptext" class="flex justify-between items-center px-2 h-[10%]">
+                    <h1 class="text-xl">$489</h1>
+                    <div id="rating" class="flex">
+                    <h2>rating</h2>
+                    <div id="stars">
+                        <i class="ri-star-fill text-zinc-800"></i>
+                        <i class="ri-star-fill text-zinc-800"></i>
+                        <i class="ri-star-fill text-zinc-800"></i>
+                        <i class="ri-star-fill text-zinc-800"></i>
+                        <i class="ri-star-fill text-zinc-800"></i>
+                    </div>
+                    </div>
+                </div>
+                <div id="imgbox" class="h-[90%] bg-cover relative">
+                    <div id="sidetext" class=" text-2xl absolute bottom-[20%] -left-[30%] -rotate-90"><h1>Cotton Twill Cap</h1></div>
+                    <div  id="tag" class="bg-black h-28 w-28 rounded-full absolute top-[30%] right-0 translate-x-1/2 text-white flex items-center justify-center transition-all"><h1>Add To Bag</h1></div>
+                    <img  src="https://images.unsplash.com/photo-1619946794135-5bc917a27793?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

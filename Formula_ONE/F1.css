@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image:  url(2180267.jpg);
+    background-size: cover;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.279);
+}
+#a h1{
+    font-family:'gilroy';
+    font-weight: 400;
+    font-size: 120px;
+    position: absolute;
+    top: 19%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(107, 22, 22);
+    letter-spacing: 20px;
+
+}
+#a h1:hover{
+    color: bisque;
+    font-size: 100px;
+}
+.mask{
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    height: 370px;
+    width: 280px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1.3s;
+    border-radius: 10px;
+}
+#one{
+    left: 25%;
+    background-image: url(https://media.gettyimages.com/id/1562983769/photo/f1-grand-prix-of-hungary-qualifying.jpg?s=1024x1024&w=gi&k=20&c=JIWURmqb_UToV_qeKZXvh_yuiMTyS71vuwK6QBhdI2E=);
+    background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    background-color: black;
+}
+#two{
+    left: 50%;
+    background-image: url(https://media.gettyimages.com/id/1696674490/photo/f1-grand-prix-of-japan-qualifying.jpg?s=1024x1024&w=gi&k=20&c=qfqmC5Uk_Djkq4eaO03ZNG2a6rjFdaLD3j4xF1OmF2A=);
+    background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#three{
+    left: 75%;
+    background-image: url(https://media.gettyimages.com/id/1399890022/photo/f1-grand-prix-of-monaco-qualifying.jpg?s=1024x1024&w=gi&k=20&c=iN457Pb4M6coJWdN5NLMbJkgxEFbOzlNhreCC0dQU3E=);
+    background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+img:hover{
+    width: 110%;
+}
+.mask:hover{
+    transform: translate(-50%,-50%) scale(1.2);
+}
+#one:hover{
+    background-image: url(https://images.unsplash.com/photo-1563694983011-6f4d90358083?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    #main{
+        background-image: url(https://media.gettyimages.com/id/1562983769/photo/f1-grand-prix-of-hungary-qualifying.jpg?s=1024x1024&w=gi&k=20&c=JIWURmqb_UToV_qeKZXvh_yuiMTyS71vuwK6QBhdI2E=);
+        background-size: cover;
+    }
+}
+#two:hover{
+    background-image: url(https://images.unsplash.com/photo-1617727553252-65863c156eb0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#three:hover{
+    background-image: url(https://images.unsplash.com/photo-1576020111856-ac48d70c5a04?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.gh{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.gh p{
+    font-family: 'Gilroy';
+    color: rgba(0, 0, 0, 0);
+    font-weight: 400;
+    letter-spacing: 10px;
+    font-size: small;
+    padding-left: 20px;
+    padding-top: 20%;
+}
+.gh:hover{
+    background-color: rgba(0, 0, 0, 0.636);
+     p{
+        color: blanchedalmond;
+        font-size: 25px;
+    }
+}
