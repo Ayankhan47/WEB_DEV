@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monument';
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(4, 35, 64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        background-image: url(https://i.pinimg.com/originals/05/7a/b2/057ab2724ab5d83bd1a7fd22bf91a71b.gif);
+        background-position: center;
+        color: transparent;
+        background-size: cover;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 120px;
+        letter-spacing: 7px;
+        z-index: 10;
+        mix-blend-mode: difference;
+    }
+    #cursor{
+        background-color: rgb(230, 204, 204);
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 7;
+        transition: all linear 0.1s;
+    }
+}
