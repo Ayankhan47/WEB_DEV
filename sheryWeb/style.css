@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    cursor: none;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./download.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    #cursor{
+        background-color: rgb(230, 204, 204);
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        position: absolute;
+        transition: all linear 0.09s;
+        mix-blend-mode: difference;
+    }
+}
+#nav{
+    height: 9%;
+    width: 100%;
+    padding: 5px 55px;
+    font-family: "Neue Machina";
+    display: flex;justify-content: space-between;
+}
+#nav img{
+    height: 30px;
+}
+#nav h3{
+    color: rgb(211, 211, 211);
+    font-size: 15px;
+    font-weight: 550;
+}
+#left-nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+#right-nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    h4{
+        font-size: 15px;
+        font-weight: 100;
+        color:  rgb(197, 197, 197);
+        cursor: pointer;
+    }
+}
+button{
+    padding: 8px 26px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family: "gilroy";
+    background-color: #27E0B3;
+    cursor: pointer;
+}
+button:active{
+    scale: 0.97;
+}
+#middle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#text{
+    margin-top: 50px;
+    h1{
+        font-family: 'Monument';
+        background-image: url(https://i.pinimg.com/originals/05/7a/b2/057ab2724ab5d83bd1a7fd22bf91a71b.gif);
+        background-position: center;
+        color: transparent;
+        background-size: cover;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 120px;
+        letter-spacing: 7px;
+        mix-blend-mode: difference;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-family: 'Monument';
+        background-image: url(https://i.pinimg.com/originals/05/7a/b2/057ab2724ab5d83bd1a7fd22bf91a71b.gif);
+        background-position: center;
+        color: transparent;
+        background-size: cover;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 50px;
+        letter-spacing: 4px;
+        mix-blend-mode: difference;
+        margin-left: 400px;
+    }
+}
+#btn2{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.side-text{
+    height: 100px;
+    width: 170px;
+    color: white;
+    font-size: 12px;
+    font-family: 'gilroy';
+    position: relative;
+    bottom: 6%;
+    right: -37%;
+    mix-blend-mode: difference;
+}
+.text-highlight{
+    color: #27E0B3;
+}
+#bottom{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.mileStone{
+    font-family: "Neue Machina";
+    h2{
+        font-size: 30px;
+        color: white;
+        font-weight: 550;
+    }
+    p{
+        font-size: 25px;
+        color: white;
+    }
+}
+.num{
+    text-align: center;
+}
