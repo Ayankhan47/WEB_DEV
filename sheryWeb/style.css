@@ -117,8 +117,9 @@ button:active{
     font-weight: 600;
 }
 .side-text{
-    height: 100px;
-    width: 170px;
+    height: 120px;
+    width: 190px;
+    padding: 20px;
     color: white;
     font-size: 12px;
     font-family: 'gilroy';
@@ -140,9 +141,11 @@ button:active{
 }
 .mileStone{
     font-family: "Neue Machina";
+    z-index: 0;
+    mix-blend-mode: difference;
     h2{
         font-size: 30px;
-        color: white;
+        color: rgb(27, 203, 138);
         font-weight: 550;
     }
     p{
